@@ -1,0 +1,13 @@
+[
+    {
+      "domain": ".qa-nowfresh.netlify.app",
+      "path": "/",
+      "name": "85e26878-6259-41c0-90ac-65c5ee0c4507",
+      "value": "BAhJIkU2MzJlZDljZGM5OWIzNjA2ZDNhYzRhYzMwN2JhMDAyOTJiYzhhYmE1ODg4ZTgyNmU0NTgxNTA0ZTRjZmUwOWExBjoGRUY%3D--5044aab07b53763a71226c19763aca601d5a681e",
+      "hostOnly": false,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "no_restriction"
+    }
+]
