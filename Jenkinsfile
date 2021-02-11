@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Install LibXss1') {
             steps {
-                sh 'sudo apt update && sudo apt install libxss1'
+                sh 'apt update'
             }
         }
         stage('Test') { 
