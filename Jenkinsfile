@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:12' 
+            image 'bluemixcode/node-xvfb' 
             args '-p 3000:3000' 
         }
     }
@@ -9,11 +9,6 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
-            }
-        }
-        stage('Install LibXss1') {
-            steps {
-                sh 'apt update'
             }
         }
         stage('Test') { 
