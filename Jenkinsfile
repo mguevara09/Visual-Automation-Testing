@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'armno/node-chromium:11.6.0-alpine' 
+            image 'timbru31/node-chrome:latest' 
             args '-p 3000:3000' 
         }
     }
