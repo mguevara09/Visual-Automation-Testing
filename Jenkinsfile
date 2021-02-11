@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'backstopjs/backstopjs:5.0.4' 
+            image 'catsoss/node-headless-chrome:latest' 
             args '-p 3000:3000' 
         }
     }
