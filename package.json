@@ -12,6 +12,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "chromium": "^3.0.2",
     "backstopjs": "^3.8.5",
     "prompt": "^1.0.0",
     "prompt-sync": "^4.2.0",
