@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'bluemixcode/node-xvfb' 
+            image 'backstopjs/backstopjs:5.0.4' 
             args '-p 3000:3000' 
         }
     }
