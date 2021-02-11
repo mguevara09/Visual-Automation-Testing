@@ -11,11 +11,6 @@ pipeline {
                 sh 'npm install' 
             }
         }
-        stage('Install LibXss1') {
-            steps {
-                sh 'apt update && apt install libxss1'
-            }
-        }
         stage('Test') { 
             steps {
                 sh 'npm t' 
