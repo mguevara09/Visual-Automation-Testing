@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'markhobson/node-chrome' 
+            image 'markhobson/node-chrome:latest' 
             args '-p 3000:3000' 
         }
     }
